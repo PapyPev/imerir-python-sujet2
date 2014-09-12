@@ -1,0 +1,13 @@
+html, body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: black;
+  padding: 15px;
+  color: white;
+  margin: 0;
+  margin-bottom: 1em;
+  text-align: center;
+}
