@@ -39,7 +39,7 @@ try:
 		print '<img src="'+ str(message['img']) +'" alt="'+ str(message['num']) +'" />'
 
 	# Lien vers l'ancienne image :
-	print 'Previously: <a href="http://xkcd.com/' + str(message['num']) + '/info.0.json"> Here </a>'
+	print 'Previously: <a href="http://xkcd.com/' + str(message['num']) + '/"> Here </a>'
 
 # Si ca ne marche pas on retourne une erreur
 except ValueError , e:
